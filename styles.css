@@ -1,13 +1,15 @@
 h1{
  font-family: Roboto;
+ color: white;
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
-h1 {
-    color: white;
+h2{
+  font-family: Roboto;
+ color: white;
 }
 
 .profile-pic {
@@ -18,4 +20,11 @@ h1 {
 .profile-resume{    
     color: rgb(252, 166, 8);
     background-color: black;
+}
+
+section {
+    justify-content: center;
+    /* display: flex; */
+    gap: 25px;
+    font-size: 45px;
 }
