@@ -1,0 +1,21 @@
+h1{
+ font-family: Roboto;
+}
+
+body{
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.profile-resume{    
+    color: rgb(252, 166, 8);
+    background-color: black;
+}
