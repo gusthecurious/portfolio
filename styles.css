@@ -15,16 +15,57 @@ h2{
 .profile-pic {
     width: 150px;
     height: 150px;
-    border-radius: 100%;
+    border-radius: 50%;          
+    border: 5px solid rgb(241, 121, 8); 
+    object-fit: cover;
 }
 .profile-resume{    
     color: rgb(252, 166, 8);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
+
+.profile-container {
+    display: flex;           /* Use Flexbox to align items horizontally */
+    align-items: center;     /* Vertically center the items */
+    gap: 20px;               /* Space between image and text */
+}
+
+.profile-text {
+    max-width: 400px;        /* Optional: Set max width for the text */
+}
+
+
+
 
 section {
     justify-content: center;
-    /* display: flex; */
     gap: 25px;
     font-size: 45px;
+}
+nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #188a92; 
+    color: white; 
+    padding: 8px 0; 
+    z-index: 1000; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: right 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
 }

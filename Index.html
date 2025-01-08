@@ -13,9 +13,9 @@
 <body>
 
 <header>
-    <nav>
+    <nav class="nav-bar">
+      
       <div class="nav-menu" id="nav-menu">
-
        <ul class="nav-list">
        <li class="nav-item"><a href="#home">Home</a></li>
        <li class="nav-item"><a href="#about">About</a></li>
@@ -23,34 +23,42 @@
        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
        <li class="nav-item"><a href="#contact">Contact</a></li>
        </ul>
-
-
       </div>
+      
     </nav>
 </header>
 
 
    <section class="home" id="home">
-    
+    <p id="welcome-hello">Hello World!</p>
    
 
    </section>
 
 
-    <h1>Teste</h1>
+    <h1></h1>
 
-    <div class="profile-details">
+    <div class="profile-container">
         <img class="profile-pic" src="https://cdn-images.dzcdn.net/images/artist/93a458fff3ae7f831fe78fcc47cc5e15/1900x1900-000000-80-0-0.jpg" href="gojo icon">
-        <p class="profile-resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perferendis quasi deleniti possimus mollitia nobis eligendi ratione harum laboriosam repudiandae quo voluptas nulla, est sit at incidunt reprehenderit. Alias, placeat?</p>
+        <div class="profile-text">
+            <p class="profile-resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perferendis quasi deleniti possimus mollitia nobis eligendi ratione harum laboriosam repudiandae quo voluptas nulla, est sit at incidunt reprehenderit. Alias, placeat?</p>
+        </div>
     </div>
-    <h2>Contact me</h2>
+    
+
 
     <section class="contact-section" id="contact">
    <a href="https://www.linkedin.com/in/gustavo-amirati-2a15441a8/" alt="linkedin link">
     <i class="fa-brands fa-linkedin"></i></a>
    <a href="https://github.com/gusthecurious/" alt="github link"><i class="fa-brands fa-github"></i></a>
-   <a href="" alt="email contact"><i class="fa-solid fa-envelope"></i></a>
-    </section>
 
+    <div class="email-area">
+       <i class="fa-solid fa-envelope"></i>
+       <input type="text">
+       <input type="text">
+       <input type="text">
+       <button class="btn-confirm" id="btn-confirm">Confirm</button>
+    </div>
+    </section>
 </body>
 </html>
